@@ -43,12 +43,10 @@ cd EmotionRecognitionApp
 
 2. Install Required Libraries
 Ensure Python 3.10 is installed. Then run:
-
 pip install numpy librosa scikit-learn tensorflow
 
 3. Prepare Dataset
-
-Place '.wav' files in the data/ folder.
+Download Ravedess dataset and shift all the audio files(.wav) from respective actors to the data folder
 Filenames must follow the RAVDESS naming format like: 03-01-05-01-01-01-01.wav
 
 4. Run the Script
